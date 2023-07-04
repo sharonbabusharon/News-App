@@ -1,0 +1,23 @@
+<div class="container">
+
+
+
+<div class="row mt-5">
+	<h4>Top Headlines</h4>
+
+	<div *ngFor="let news of topHeadingDisplay" class="col-lg-3 mt-3 mb-3">
+		
+		<div class="box">
+			<img src="{{news.urlToImage}}" width="100%">
+			<h5 class="mt-2 mb-2">{{news.title}}</h5>
+			<a href="{{news.url}}">Read more</a>
+
+		</div>
+		
+		
+
+	</div>
+
+</div>
+
+</div>
